@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="set_area">Créer une nouvelle zone</string>
+    <string name="view_areas">Éditer les zones</string>
+    <string name="area_entrence_notification">Me notifitier à l\'enrée d\'une zone prédéfinie.</string>
+    <string name="draw_instruction">Touchez maintenez l\'écran au centre de la zone où vous désirez que votre téléphone passe en mode silencieux, puis tirez pour définir le rayon de la zone.</string>
+</resources>
