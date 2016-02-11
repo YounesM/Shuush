@@ -4,4 +4,6 @@
     <string name="view_areas">Edit areas</string>
     <string name="area_entrence_notification">Notify me when I enter a predefined area.</string>
     <string name="draw_instruction">Touch and hold the center of the area where you want your phone to switch into silent mode, then drag to set the radius of the area.</string>
+    <string name="config" translatable="false">Configuration</string>
+    <string name="about">About us</string>
 </resources>
