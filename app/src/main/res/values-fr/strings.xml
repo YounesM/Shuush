@@ -5,4 +5,9 @@
     <string name="area_entrence_notification">Me notifitier à l\'enrée d\'une zone prédéfinie.</string>
     <string name="draw_instruction">Touchez maintenez l\'écran au centre de la zone où vous désirez que votre téléphone passe en mode silencieux, puis tirez pour définir le rayon de la zone.</string>
     <string name="about">A propos de nous</string>
+    <string name="save_button">Sauvegarder </string>
+    <string name="set_coords">Définir les coordonnées</string>
+    <string name="set_radius">Définir le rayon</string>
+    <string name="coords">Coordonnées : </string>
+    <string name="radius">Rayon : </string>
 </resources>

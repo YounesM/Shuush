@@ -6,6 +6,12 @@
     <string name="draw_instruction">Touch and hold the center of the area where you want your phone to switch into silent mode, then drag to set the radius of the area.</string>
     <string name="config" translatable="false">Configuration</string>
     <string name="about">About us</string>
-    <string name="title_activity_maps">Map</string>
-    <string name="title_activity_map">Map</string>
+    <string name="title_activity_map" translatable="false">Map</string>
+    <string name="save_button">Save </string>
+    <string name="set_coords">Set coordinates</string>
+    <string name="set_radius">Set radius</string>
+    <string name="coords">Coordinates :</string>
+    <string name="coord_value" translatable="false">-</string>
+    <string name="radius">Radius :</string>
+    <string name="radius_value" translatable="false">-</string>
 </resources>
