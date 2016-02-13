@@ -14,4 +14,8 @@
     <string name="coord_value" translatable="false">-</string>
     <string name="radius">Radius :</string>
     <string name="radius_value" translatable="false">-</string>
+    <string name="toggle_notification">Toogle notification</string>
+    <string name="toggle_notification_desc">By toogling notifications you will be notified each time you enter predefined an area.</string>
+    <string name="toggle_vibration">Vibrations</string>
+    <string name="toggle_vibration_desc">Turn on vibrations</string>
 </resources>

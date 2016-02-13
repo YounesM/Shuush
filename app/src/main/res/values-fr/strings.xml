@@ -10,4 +10,8 @@
     <string name="set_radius">Définir le rayon</string>
     <string name="coords">Coordonnées : </string>
     <string name="radius">Rayon : </string>
+    <string name="toggle_notification">Activer les notifications</string>
+    <string name="toggle_notification_desc">En activant les notifications vous serez notifés à chaque fois que vous entrerez dans une zone prédéfinie.</string>
+    <string name="toggle_vibration">Vibreur</string>
+    <string name="toggle_vibration_desc">Activer les vibrations</string>
 </resources>
