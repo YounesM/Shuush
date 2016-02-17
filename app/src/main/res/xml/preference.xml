@@ -8,4 +8,12 @@
         android:defaultValue="false"
         android:summary="@string/toggle_vibration_desc"
         android:key="toggleVibration"/>
+    <bsol.andapp001.TimePreference
+        android:key="pickStartHour"
+        android:title="@string/start_hour"
+        android:summary="@string/start_hour_desc"/>
+    <bsol.andapp001.TimePreference
+        android:key="pickEndHour"
+        android:title="@string/end_hour"
+        android:summary="@string/end_hour_desc" />
 </PreferenceScreen>

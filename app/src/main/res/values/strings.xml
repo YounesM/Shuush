@@ -18,4 +18,10 @@
     <string name="toggle_notification_desc">By toogling notifications you will be notified each time you enter predefined an area.</string>
     <string name="toggle_vibration">Vibrations</string>
     <string name="toggle_vibration_desc">Turn on vibrations</string>
+    <string name="start_hour">Start hour</string>
+    <string name="end_hour">End hour</string>
+    <string name="end_hour_desc">Select the time when the app must shut down.</string>
+    <string name="start_hour_desc">Select the time when the app is active.</string>
+    <string name="set_button">Set</string>
+    <string name="cancel_button">Cancel</string>
 </resources>

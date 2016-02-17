@@ -14,4 +14,10 @@
     <string name="toggle_notification_desc">En activant les notifications vous serez notifés à chaque fois que vous entrerez dans une zone prédéfinie.</string>
     <string name="toggle_vibration">Vibreur</string>
     <string name="toggle_vibration_desc">Activer les vibrations</string>
+    <string name="end_hour">Heure de fin</string>
+    <string name="start_hour">Heure de début</string>
+    <string name="start_hour_desc">Sélectionner l\'heure à laquelle l\'application s\'active.</string>
+    <string name="end_hour_desc">Sélectionner l\'heure à laquelle l\'application s\'arrête.</string>
+    <string name="set_button">Appliquer</string>
+    <string name="cancel_button">Annuler</string>
 </resources>
