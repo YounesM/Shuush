@@ -9,6 +9,9 @@ import android.view.animation.TranslateAnimation;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
+import android.widget.Toast;
+
+import java.sql.Time;
 
 public class MainMenu extends AppCompatActivity {
 
@@ -32,6 +35,8 @@ public class MainMenu extends AppCompatActivity {
         button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                Intent listActivity = new Intent(MainMenu.this, ListActivity.class);
+                startActivity(listActivity);
 
             }
         });
@@ -40,6 +45,12 @@ public class MainMenu extends AppCompatActivity {
             public void onClick(View v) {
                 Intent preferenceActivity = new Intent(MainMenu.this,SettingsActivity.class);
                 startActivity(preferenceActivity);
+            }
+        });
+        button4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
             }
         });
         this.animate();

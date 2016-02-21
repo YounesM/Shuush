@@ -26,9 +26,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
         <activity
             android:name=".MapActivity"
             android:label="@string/title_activity_map">
@@ -36,7 +38,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="bsol.andapp001.MainMenu" />
         </activity>
-        <activity android:name=".SettingsActivity"></activity>
+        <activity android:name=".SettingsActivity" />
+        <activity
+            android:name=".ListActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".AboutUsActivity"></activity>
     </application>
 
 </manifest>

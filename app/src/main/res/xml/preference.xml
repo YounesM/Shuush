@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:bsol="http://schemas.android.com/apk/res/bsol.andapp001">
     <CheckBoxPreference android:title="@string/toggle_notification"
         android:defaultValue="true"
         android:summary="@string/toggle_notification_desc"
@@ -10,10 +11,16 @@
         android:key="toggleVibration"/>
     <bsol.andapp001.TimePreference
         android:key="pickStartHour"
+        android:defaultValue="9:00"
+        android:id="@+id/fstPicker"
         android:title="@string/start_hour"
-        android:summary="@string/start_hour_desc"/>
+        android:summary="@string/start_hour_desc"
+        />
     <bsol.andapp001.TimePreference
         android:key="pickEndHour"
+        android:defaultValue="20:00"
+        android:id="@+id/lstPicker"
         android:title="@string/end_hour"
-        android:summary="@string/end_hour_desc" />
+        android:summary="@string/end_hour_desc"
+        />
 </PreferenceScreen>

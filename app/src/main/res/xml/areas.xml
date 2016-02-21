@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<areas>
+    <area>
+        <name>Zone1</name>
+        <longitude>32.2948667</longitude>
+        <latitude>-9.2136595</latitude>
+        <radius>5</radius>
+    </area>
+    <area>
+        <name>Zone2</name>
+        <longitude>32,3268934</longitude>
+        <latitude>-9.2627604</latitude>
+        <radius>10</radius>
+    </area>
+</areas>

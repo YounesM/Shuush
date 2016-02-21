@@ -7,6 +7,8 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.TimePicker;
 
+import java.lang.reflect.Type;
+
 public class TimePreference extends DialogPreference {
     private int lastHour=0;
     private int lastMinute=0;
@@ -26,6 +28,11 @@ public class TimePreference extends DialogPreference {
 
     public TimePreference(Context ctxt, AttributeSet attrs) {
         super(ctxt, attrs);
+
+        TypedArray arr = ctxt.obtainStyledAttributes(attrs,R.styleable.timePicker);
+        CharSequence hour_cs= arr.getString(R.styleable.timePicker_hour);
+        CharSequence min_cs = arr.getString(R.styleable.timePicker_min);
+        arr.recycle();
 
         setPositiveButtonText(R.string.set_button);
         setNegativeButtonText(R.string.cancel_button);

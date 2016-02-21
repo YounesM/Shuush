@@ -24,4 +24,5 @@
     <string name="start_hour_desc">Select the time when the app is active.</string>
     <string name="set_button">Set</string>
     <string name="cancel_button">Cancel</string>
+    <string name="about_us" translatable="false">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam pellentesque finibus. Etiam pretium nec velit dapibus mollis. Quisque rutrum.</string>
 </resources>
